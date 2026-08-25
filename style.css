@@ -56,8 +56,9 @@ body {
 
 /* HERO SECTION */
 .hero {
-  width: 1200px;
-  height: 500px;
+  max-width: 1200px;
+  width: 100%;
+  min-height: 500px;
   margin: 40px auto;
   background-color: white;
 
