@@ -31,6 +31,7 @@ body {
   align-items: center;
 
   padding: 0 40px;
+  z-index: 999;
 }
 
 .logo {
@@ -233,11 +234,14 @@ footer p {
 
 @media (max-width: 748px) {
   .navbar {
+    position: fixed; 
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50)%
     height: auto;
     width: 100%;
     flex-direction: row;
     padding: 20px;
-    position: relative;
   }
 
   .burger {
