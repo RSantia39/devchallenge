@@ -3,8 +3,9 @@ const navLinks = document.getElementById("nav-links");
 
 burger.addEventListener("click", () => {
   navLinks.classList.toggle("show");
-  burger.addEventListener("resize", () => {
+});
+window.addEventListener("resize", () => {
   if (window.innerWidth > 768) {
-    nav-links.classList.remove("show");
+    navLinks.classList.remove("show");
   }
 });
